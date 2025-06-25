@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: realprop-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    autoDeploy: true
