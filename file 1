@@ -1,0 +1,5 @@
+rm -rf node_modules package-lock.json
+npm install
+git add .
+git commit -m "Fix: install react-scripts"
+git push
